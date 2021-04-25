@@ -24,7 +24,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ Nice innit??⭕️", url="The Best")
+                        "⭕️ Nice innit??⭕️", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")
                 ]
             ]
         ),
@@ -45,7 +45,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ SUPPORT ⭕️", url="Don't Need It LMAO")
+                        "⭕️ SUPPORT ⭕️", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")
                 ]
             ]
         ),
@@ -66,7 +66,7 @@ async def about(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="Nice Try")
+                        "SOURCE CODE", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")
                 ]
             ]
         ),
