@@ -24,7 +24,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("HELP", callback_data="help_data"),
                 InlineKeyboardButton("ABOUT", callback_data="about_data")],
-            [InlineKeyboardButton("⭕️ Enjoy ⭕️", url="LOL")]
+            [InlineKeyboardButton("⭕️ Enjoy ⭕️", url="https://giybf.com")]
         ])
 
         await query.message.edit_text(
@@ -40,7 +40,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("BACK", callback_data="start_data"),
                 InlineKeyboardButton("ABOUT", callback_data="about_data")],
-            [InlineKeyboardButton("⭕️ HELL YEAH ⭕️", url="LMAO")]
+            [InlineKeyboardButton("⭕️ HELL YEAH ⭕️", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")]
         ])
 
         await query.message.edit_text(
@@ -56,7 +56,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("BACK", callback_data="help_data"),
                 InlineKeyboardButton("START", callback_data="start_data")],
-            [InlineKeyboardButton("SOURCE CODE", url="AHAA")]
+            [InlineKeyboardButton("SOURCE CODE", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ")]
         ])
 
         await query.message.edit_text(
